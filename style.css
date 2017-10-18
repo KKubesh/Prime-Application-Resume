@@ -1,19 +1,19 @@
-r-container {
+div r-container {
   background-color: #999;
   width: 500px;
   height: 100px;
   margin: 0 auto;
 }
 
-e-container {
+div e-container {
   background: #666;
 }
 
-s-container {
+div s-container {
   background: #333;
 }
 
-u-container {
+div u-container {
   background: #111;
 }
 

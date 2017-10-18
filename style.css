@@ -1,5 +1,7 @@
 r-container {
   background: #999;
+  width: 50%;
+  margin: 0 auto;
 }
 
 e-container {

@@ -1,3 +1,19 @@
+r-container {
+  background: #999;
+}
+
+e-container {
+  background: #666;
+}
+
+s-container {
+  background: #333;
+}
+
+u-container {
+  background: #111;
+}
+
 p {
-  color: blue
+  color: blue;
 }

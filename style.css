@@ -1,22 +1,41 @@
-div r-container {
+.r-container {
   background-color: #999;
-  width: 500px;
-  height: 100px;
-  margin: 0 auto;
+  flex-basis: 60%;
+  max-width: 1100px;
+  padding: 0px 15px;
+  overflow: hidden;
 }
 
-div e-container {
-  background: #666;
+.e-container {
+  background: #666666;
+  box-sizing: border-box;
+  flex-basis: 35%;  
+  text-align: center;
+  margin: 15px 0px;
 }
 
-div s-container {
-  background: #333;
+.s-container {
+  background: #333333;
+  box-sizing: border-box;
+  flex-basis: 63%;
+  margin: 15px 0px;
 }
 
-div u-container {
-  background: #111;
+.u-container {
+  background: #111111;
 }
 
 p {
-  color: blue;
+  color: #999;
+}
+
+body {
+  background-color: #000;    
+}
+
+@media (min-width: 600px){
+  .r-container {
+  display: flex;
+  justify-content: space-between;
+  }
 }

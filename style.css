@@ -7,7 +7,7 @@
 }
 
 .e-container {
-  background: #666666;
+  background: #666;
   box-sizing: border-box;
   flex-basis: 35%;  
   text-align: center;
@@ -15,14 +15,31 @@
 }
 
 .s-container {
-  background: #333333;
+  background: #333;
   box-sizing: border-box;
   flex-basis: 63%;
   margin: 15px 0px;
 }
 
 .u-container {
-  background: #111111;
+  background: #111;
+  display: flex;
+  flex-basis: 63%;
+  flex-wrap: wrap;
+  margin: 40px;
+  justify-content: space-around;
+}
+
+.m-container {
+  background-color: #432;
+  width: 150px;
+  height: 100px;
+  margin: 20px auto;
+  display: flex;
+}
+
+.cntr-txt {
+  margin: auto;
 }
 
 p {
@@ -30,7 +47,8 @@ p {
 }
 
 body {
-  background-color: #000;    
+  background-color: #000;   
+  color: #592
 }
 
 @media (min-width: 600px){

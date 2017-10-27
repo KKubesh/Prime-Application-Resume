@@ -38,8 +38,18 @@
   display: flex;
 }
 
+.p-container {
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+}
+
 .cntr-txt {
   margin: auto;
+}
+
+h1,h2,h3 {
+  margin: 0;
 }
 
 p {

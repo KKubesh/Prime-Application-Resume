@@ -1,13 +1,21 @@
 .r-container {
-  background-color: #000;
+  background-color: #D8C01C;
   flex-basis: 60%;
   max-width: 1100px;
   padding: 0px 15px;
   overflow: hidden;
 }
 
+.r2-container {
+  flex-basis: 60%;
+  max-width: 1100px;
+  padding: 0px 15px;
+  overflow: hidden;
+  display: flex;
+}
+
 .e-container {
-  background-color: #000;
+  background-color: #D8C01C;
   box-sizing: border-box;
   flex-basis: 35%;  
   text-align: center;
@@ -15,8 +23,23 @@
   padding: 20px;
 }
 
+.e2-container {
+  box-sizing: border-box;
+  flex-basis: 35%;  
+  text-align: center;
+  margin: 25px 0px;
+  padding: 20px;
+}
+
 .s-container {
-  background-color: #000;
+  background-color: #D8C01C;
+  box-sizing: border-box;
+  flex-basis: 63%;
+  margin: 15px 0px;
+  padding: 20px;
+}
+
+.s2-container {
   box-sizing: border-box;
   flex-basis: 63%;
   margin: 15px 0px;
@@ -62,13 +85,13 @@ h1,h2,h3 {
 
 h1 {
   font-size: 60px;
-  color: #D8C01C;
+  color: #000;
 }
 
 h4 {
   display: inline;
   line-height: 30px;
-  color: #60604e;
+  color: #fff;
 }
 
 h5 {
@@ -78,7 +101,7 @@ h5 {
 }
 
 .material-icons {
-  color: #D8C01C;
+  color: #000;
   vertical-align: middle;
 }
 
@@ -87,7 +110,6 @@ p {
 }
 
 body {
-  background-color: #000;   
   color: #D8C01C;
   font-family: helvetica;
 }
@@ -96,7 +118,7 @@ body {
   border-radius: 50%;
 }
 
-@media (min-width: 780px){
+@media (min-width: 792px){
   .r-container {
   display: flex;
   justify-content: space-between;
@@ -104,7 +126,7 @@ body {
   
 }
 
-@media (max-width: 781px){
+@media (max-width: 792px){
     .e-container {
     box-sizing: border-box;
     flex-basis: 90%;  
@@ -120,9 +142,32 @@ body {
     padding: 0px 20px 20px 20px;
   }
   
+  .r2-container {
+    flex-basis: 60%;
+    max-width: 1100px;
+    padding: 0px 15px;
+    overflow: hidden;
+    flex-direction: column;
+  }
+  
+  .e2-container {
+    box-sizing: border-box;
+    flex-basis: 90%;  
+    text-align: center;
+    margin: 25px 0px 0px;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .s2-container {
+    box-sizing: border-box;
+    flex-basis: 90%;
+    margin: 15px;
+    padding: 0px 20px 20px 20px;
+  }
+  
   .p-container {
-  display: flex;
-  flex-direction: column;
-  margin: 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
   }
 }

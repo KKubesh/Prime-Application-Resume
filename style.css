@@ -79,6 +79,19 @@
   margin: auto;
 }
 
+.content {
+  margin: auto;
+  max-width: 1080px;
+}
+
+a {
+  color: #D8C01C;
+}
+
+a:hover {
+  color: #666;
+}
+
 h1,h2,h3 {
   margin: 0;
 }

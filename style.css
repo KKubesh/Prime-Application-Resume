@@ -146,12 +146,6 @@ body {
   display: flex;
   justify-content: space-between;
   }
-  
-  .r2-container {
-  display: flex;
-  justify-content: space-between;
-  }
-  
 }
 
 @media (max-width: 793px){

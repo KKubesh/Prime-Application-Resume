@@ -1,14 +1,12 @@
 .r-container {
   background-color: #D8C01C;
   flex-basis: 60%;
-  max-width: 1100px;
   padding: 0px 15px;
   overflow: hidden;
 }
 
 .r2-container {
   flex-basis: 60%;
-  max-width: 1100px;
   padding: 0px 15px;
   overflow: hidden;
   display: flex;
@@ -16,7 +14,6 @@
 
 .r3-container {
   flex-basis: 60%;
-  max-width: 1100px;
   padding: 0px 15px;
   overflow: hidden;
 }
@@ -89,7 +86,7 @@
 
 .content {
   margin: auto;
-  max-width: 1080px;
+  max-width: 880px;
   background-color: #fff;
 }
 
@@ -146,6 +143,11 @@ body {
 
 @media (min-width: 794px){
   .r-container {
+  display: flex;
+  justify-content: space-between;
+  }
+  
+  .r2-container {
   display: flex;
   justify-content: space-between;
   }

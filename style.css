@@ -60,7 +60,9 @@
 
 .m-container {
   position: relative;
-  padding: 10px
+  padding: 10px;
+  height: 90px;
+  width: 90px;
 }
 
 .image {
